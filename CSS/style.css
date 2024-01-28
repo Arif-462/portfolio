@@ -236,9 +236,8 @@
 }
 
 .servicesBox i{
-    overflow: hidden;
-    width: 325px;
-    text-align: center!important;
+    width: 100%;
+    text-align: center;
     font-size: 4rem;
     color: #c306ee;
     margin: 1rem  0;
@@ -473,3 +472,4 @@
 
 
 /* Footer part end */
+

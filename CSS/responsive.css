@@ -1,0 +1,194 @@
+/* Responsive style start */
+
+@media (max-width:1000px){
+    .nav{
+        padding: 1rem 0rem;
+        justify-content: space-around;
+        background-color: red;
+    }
+
+    .logo h1{
+        font-size: 1.7rem;
+    }
+
+    .nav-link{
+        margin-top: 0.5rem;
+    }
+
+    .nav-link a{
+        padding: 0.5rem;
+    }
+
+    .main{
+        padding: 0 5rem ;    
+    }
+
+    .h1{
+        font-size: 1.5rem;
+    }
+
+    .title h3{
+        font-size: 1rem;
+    }  
+
+    .social-media a{
+        font-size: 1.2rem;
+        margin-right: 0.3rem;
+    }
+
+    .contactInfo a{
+        font-size: 0.7rem;
+        padding: 0.4rem;
+        margin-right: 0.7rem;
+    }
+
+    .homePic img{
+        width: 18rem;
+        height: 23rem;
+        margin-top: 6rem;
+    }
+
+    .about{
+        margin-top: -20rem;
+    }
+
+    .aboutImg img{
+        width: 18rem;
+        height: 22rem;
+    }
+
+    .aboutDetails{
+        margin-top: 0rem;
+    }
+
+    .services{
+        margin-top: -25rem;
+    }
+
+    .services h1{
+        margin-bottom: 2rem;
+    }
+
+    .servicesBox{
+        width: 33%;
+    }
+
+    .servicesBox i{
+        width: 100%;
+        text-align: center!important;
+    }
+}
+
+
+
+
+@media (max-width:650px) {
+    .nav{
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .nav-link{
+        display: block;
+        padding-bottom: 1.3rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-link a{
+        font-size: 1rem;
+    }
+
+    .main{
+        padding: 0 1rem;
+    }
+
+    .home{
+        flex-direction: column;
+        text-align: center;
+        height: 80vh;
+    }
+
+    .descriptionInfo{
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .descriptionInfo h1{
+        font-size: 2rem;
+    }
+
+    .homePic{
+        width: 100%;
+        text-align: center;        
+    }
+
+   .about{
+        text-align: center;
+        flex-direction: column-reverse;
+        margin-top: 12rem;
+        height: 80vh;
+   }
+
+   .aboutDetails{
+        width: 100%;
+        text-align: center;
+   }
+
+   .aboutImg{
+        text-align: center;
+        width: 100%;
+        margin-bottom: -5rem;
+   }
+
+   .aboutImg img{
+        width: 20rem;
+        height: 25rem;
+    }
+
+    .services{
+        margin-top: 10rem;
+    }
+
+    .servicesContent{
+        flex-direction: column;       
+    }
+
+    .servicesBox{
+        width: 100%;        
+    }
+
+    .projects{
+        width: 100%;
+        text-align: center;
+        margin-top: 23rem;
+    }
+
+    .projectsContent{
+        flex-direction: column;        
+    }
+
+    .projectsBox{
+        width: 100%;        
+    }
+
+    .contact{
+        margin-top: 75rem;
+        margin-bottom: -15rem;
+    }
+
+    .footer-txt{
+        width: 75%;
+        font-size: 1rem;
+        letter-spacing: normal;
+    }
+    
+}
